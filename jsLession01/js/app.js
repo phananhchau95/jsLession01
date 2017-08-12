@@ -8,21 +8,21 @@
 // if (numC > 20) {console.log('aa');}
 var weight = 48;
 var height = 1.58;
-var BMI = weight/(height*height);
+var bmi = weight/(height*height);
 console.log('Your weight: '+weight);
 console.log('Your height: '+height);
-console.log('Your BMI: '+BMI);
+console.log('Your BMI: '+bmi);
 var result = '';
-if (BMI<18.5) {
+if (bmi<18.5) {
 	result = 'Underweight';
 	console.log('You are '+result);
-}else if(BMI>=18.5&&BMI<25){
+}else if(bmi>=18.5&&bmi<25){
 	result = 'Normal weight';
 	console.log('You are '+result);
-}else if(BMI>=25&&BMI<30){
+}else if(bmi>=25&&bmi<30){
 	result = 'Overweight';
 	console.log('You are '+result);
-}else if(BMI>=30){
+}else if(bmi>=30){
 	result = 'Obesity';
 	console.log('You are '+result);
 }
