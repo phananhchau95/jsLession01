@@ -22,7 +22,7 @@ if (BMI<18.5) {
 }else if(BMI>=25&&BMI<30){
 	result = 'Overweight';
 	console.log('You are '+result);
-}else if(BMI>30){
+}else if(BMI>=30){
 	result = 'Obesity';
 	console.log('You are '+result);
 }
